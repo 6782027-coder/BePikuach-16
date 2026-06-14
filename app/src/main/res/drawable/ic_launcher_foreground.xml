@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- מגן — צל -->
+    <path
+        android:fillColor="#0D47A1"
+        android:pathData="M54,8 L94,24 L94,58 C94,80 76,96 54,104 C32,96 14,80 14,58 L14,24 Z"/>
+
+    <!-- מגן — גוף ראשי -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M54,13 L90,28 L90,58 C90,78 73,93 54,100 C35,93 18,78 18,58 L18,28 Z"/>
+
+    <!-- קו פנימי -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.22"
+        android:pathData="M54,19 L86,32 L86,58 C86,75 70,89 54,96 C38,89 22,75 22,58 L22,32 Z"/>
+
+    <!-- וי עדין ברקע -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeAlpha="0.15"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M36,56 L48,68 L72,42"/>
+
+    <!-- טקסט "בפיקוח" — ייוצג על ידי TextView בסמל עצמו -->
+    <!-- שימוש ב-text element אינו נתמך ב-VectorDrawable, לכן נוסיף layer נפרד ב-mipmap -->
+
+</vector>
