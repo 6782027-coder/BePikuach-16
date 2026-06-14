@@ -71,7 +71,6 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
-        android:pointerIcon="default"
         android:clickable="false"
         android:focusable="false"
         android:elevation="0dp"
